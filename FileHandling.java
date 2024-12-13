@@ -1,12 +1,12 @@
-package com.company;
-
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class FileHandling {
-    public static void main(String{} args) {
+    public static void main(String[] args) {
 
         /*
-        File myFile = new File(pathname:"FileHandling.txt");
+        File myFile = new File("FileHandling.txt");
         try {
             myFile.createNewFile();
         } catch (IOException e) {
@@ -14,14 +14,13 @@ public class FileHandling {
             e.printStackTrace();
         }
         */
-    try {
-        FileWriter fileWriter = new FileWriter(filename:"FileHandling.txt");
-        fileWriter.write(str:"the first file from the java course");
-        fileWriter.close();
-    } catch (IOException e) {
-        e.printStackTrace;
-    }
-        
-    }
+        try {
+            FileWriter fileWriter = new FileWriter("FileHandling.txt");
+            fileWriter.write("the first file from the java course");
+            fileWriter.close();
+        } catch (IOException e) {
+            System.out.println("An error occurred");
+            e.printStackTrace();
+        }
     }
 }
