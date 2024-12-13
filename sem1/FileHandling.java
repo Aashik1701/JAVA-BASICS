@@ -1,3 +1,5 @@
+package sem1;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -16,7 +18,7 @@ public class FileHandling {
         */
         try {
             FileWriter fileWriter = new FileWriter("FileHandling.txt");
-            fileWriter.write("the first file from the java course");
+            fileWriter.write("the first file from the java course Created using this program");
             fileWriter.close();
         } catch (IOException e) {
             System.out.println("An error occurred");

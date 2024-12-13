@@ -1,3 +1,5 @@
+package sem1;
+
 import java.lang.*;
 import java.util.Scanner;
 class shape {

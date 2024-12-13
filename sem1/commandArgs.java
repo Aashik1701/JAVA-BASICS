@@ -1,3 +1,5 @@
+package sem1;
+
 import java.lang.*;
 class commandArgs {
     public static void main(String[]args) {

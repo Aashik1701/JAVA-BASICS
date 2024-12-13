@@ -1,3 +1,5 @@
+package sem1;
+
 import java.lang.Math;
 import java.util.Scanner;
 public class SquareRoot {
